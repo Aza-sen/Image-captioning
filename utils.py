@@ -15,10 +15,7 @@ def display_examples(model, device, vocab_source):
     # Example images for model testing
     sample_imgs = [
         ("test_examples/dog.jpg", "Dog on a beach by the ocean"),
-        ("test_examples/child.jpg", "Child holding red frisbee outdoors"),
-        ("test_examples/bus.png", "Bus driving by parked cars"),
-        ("test_examples/boat.png", "A small boat in the ocean"),
-        ("test_examples/horse.png", "A cowboy riding a horse in the desert"),
+        
     ]
     
     for idx, (img_path, correct_caption) in enumerate(sample_imgs, 1):
