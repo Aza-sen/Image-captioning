@@ -14,7 +14,7 @@ def display_examples(model, device, vocab_source):
     model.eval()
     # Example images for model testing
     sample_imgs = [
-        ("test_examples/dog.jpg", "Dog on a beach by the ocean"),
+        ("dog.jpg", "Dog on a beach by the ocean"),
         
     ]
     
